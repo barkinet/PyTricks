@@ -15,8 +15,8 @@ ops = {
     "*": operator.mul
 }
 
-x = input("Enter an operator [OPTIONS: +, -, *, /]: ")
-y = int(input("Enter number: "))
-z = int(input("Enter number: "))
+x = raw_input("Enter an operator [OPTIONS: +, -, *, /]: ")
+y = int(raw_input("Enter number: "))
+z = int(raw_input("Enter number: "))
 
 print (ops[x](y, z))
